@@ -5,7 +5,7 @@ Write-Host "The script for cleaning temporary files is running." -ForegroundColo
 $targetFolder = $env:TEMP
 
 # 2. We show you what's in it.
-Write-Host "Содержимое папки $($targetFolder):" -ForegroundColor Yellow
+Write-Host "Folder Contents $($targetFolder):" -ForegroundColor Yellow
 Get-ChildItem -Path $targetFolder
 
 # 3. Request confirmation from the user
@@ -18,4 +18,5 @@ if ($userAnswer -eq 'Yes') {
 }  else {
     Write-Host "The operation was canceled by the user." -ForegroundColor Red
 }
+
 
