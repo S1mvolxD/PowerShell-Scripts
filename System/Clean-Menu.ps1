@@ -5,13 +5,14 @@ function Show-Menu {
     Write-Host "=== Cleaning management menu. ===`n" -ForegroundColor Cyan
     Write-Host "  1. Clear the user's temporary files" -ForegroundColor Gray
     Write-Host "  2. Clear system temporary files (Admin)" -ForegroundColor Gray
+    Write-Host "  3. Empty the shopping cart" -ForegroundColor Gray
     Write-Host "  0. Exit" -ForegroundColor Red
     Write-Host "========================================" -ForegroundColor Cyan
 }
 
 do {
     Show-Menu
-    $choice = Read-Host "`nEnter the action number (0-2)"
+    $choice = Read-Host "`nEnter the action number (0-3)"
 
     switch ($choice) {
         "1" {
@@ -24,6 +25,11 @@ do {
             irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/main/System/Clear-SystemTemp.ps1 | iex
             Pause
         }
+        "3" {
+            Write-Host "`nStarting the trash cleanup..." -ForegroundColor Green
+            irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/main/System/Clear-RecycleBin.ps1 | iex
+            Pause
+        }
         "0" {
             Write-Host "`nExit..." -ForegroundColor Gray
             exit
@@ -34,4 +40,3 @@ do {
         }
     }
 } while ($choice -ne "0")
-
