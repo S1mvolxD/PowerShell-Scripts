@@ -29,5 +29,6 @@ irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/mai
   What cleanses:
     - %TEMP% & %LOCALAPPDATA%\Temp
     - Browser cache (Edge, Chrome, Firefox)
-    - Recent documents```
+    - Recent documents
+```
 </details>
