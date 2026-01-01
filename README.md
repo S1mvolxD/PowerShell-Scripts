@@ -2,3 +2,11 @@
 https://img.shields.io/badge/PowerShell-5.1+-blue.svg https://img.shields.io/badge/Windows-10%252F11%252FServer-success.svg https://img.shields.io/badge/License-MIT-green.svg https://img.shields.io/badge/Version-2.0.0-orange.svg
 
 A set of standalone PowerShell scripts for safely cleaning temporary files in Windows. Each script performs a specific task.
+
+# ✨ Features
+✅ Modularity - each script is independent and performs a single task
+✅ Informative - a detailed report on the implementation
+✅ Flexibility - can be used separately or in combination
+✅ Support - Windows 10/11/Server 2016+
+
+# 📁 List of scripts
