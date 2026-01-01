@@ -3,10 +3,10 @@
 A collection of PowerShell scripts for automating tasks on a PC.
 
 ## 📁 Structure
-|      File     | 
-| ------------- | 
-| [Clean-Menu.ps1](https://github.com/S1mvolxD/PowerShell-Scripts/blob/main/System/Clean-Menu.ps1)  |
-| Content Cell  |
+|      File     |  Start |
+| ------------- | ------------- |
+| [Clean-Menu.ps1](https://github.com/S1mvolxD/PowerShell-Scripts/blob/main/System/Clean-Menu.ps1) | `irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/main/System/Clean-Menu.ps1 | iex` | 
+| Content Cell  | s |
 ## 🚀 How to use
 
 1. Run PowerShell as an administrator
