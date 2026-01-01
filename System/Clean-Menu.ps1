@@ -5,7 +5,7 @@ function Show-Menu {
     Write-Host "=== Cleaning management menu. ===`n" -ForegroundColor Cyan
     Write-Host "  1. Clear the user's temporary files" -ForegroundColor Gray
     Write-Host "  2. Clear system temporary files (Admin)" -ForegroundColor Gray
-    Write-Host "  3. Empty the shopping cart" -ForegroundColor Gray
+    Write-Host "  3. Clear the Basket" -ForegroundColor Gray
     Write-Host "  0. Exit" -ForegroundColor Red
     Write-Host "========================================" -ForegroundColor Cyan
 }
@@ -40,3 +40,4 @@ do {
         }
     }
 } while ($choice -ne "0")
+
