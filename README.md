@@ -56,19 +56,19 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 # 📊 Script Comparison
 ```mermaid
 graph TD
-    A[Выбор скрипта] --> B{Права администратора?}
-    B -->|Да| C[Clear-AllTemp.ps1<br/>с меню]
-    B -->|Нет| D[Clear-UserTemp.ps1]
+    A[Script Selection] --> B{Administrator rights?}
+    B -->|Yes| C[Clear-AllTemp.ps1<br/>From the menu]
+    B -->|No| D[Clear-UserTemp.ps1]
     
-    C --> E{Что очистить?}
-    E --> F[Полная очистка<br/>Пункт 7]
-    E --> G[Выборочная очистка<br/>Пункты 1-6]
+    C --> E{What should I clear?}
+    E --> F[Complete cleaning<br/>Paragraphs 7]
+    E --> G[Selective cleaning<br/>Paragraphs 1-6]
     
-    D --> H[Дополнительно]
-    H --> I[Clear-RecycleBin.ps1<br/>очистка корзины]
+    D --> H[Additionally]
+    H --> I[Clear-RecycleBin.ps1<br/>Emptying the trash]
     
-    F --> J[⚠️ Перезагрузка<br/>рекомендуется]
-    G --> K[Готово!]
+    F --> J[⚠️ Reboot<br/>Recommended]
+    G --> K[Done!]
     I --> K
 ```
     
