@@ -70,7 +70,7 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 </details>
 
 > [!IMPORTANT]
-> Important: After cleaning, the first launches of programs will be slower
+> Important: After cleaning, the first launches of programs will be slower.
 
 <details>
 
@@ -134,6 +134,16 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 ```
 
 </details>
+
+# ⚙️ Rights requirements
+| Operation | Requires an admin | Why |
+| --------- | ----------------- | --- |
+| Clearing system folders | ✅ | Access to protected system files |
+| Clearing Prefetch | ✅ | Startup optimization System files |
+| Stopping services | ✅ | Required to clear the updates folder |
+| Clearing Windows Temp | ✅ | System directory |
+| Cleaning user files | ❌ | Only the files of the current user |
+| Emptying the trash | ❌ | Standard user rights |
 
 # 📊 Script Comparison
 ```mermaid
