@@ -27,3 +27,19 @@ irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/mai
 <summary>1. Clear-UserTemp.ps1 - Clearing user temporary files</summary>
 What cleanses:\n%TEMP% & %LOCALAPPDATA%\Temp\nBrowser cache (Edge, Chrome, Firefox)\nRecent documents
 </details>
+
+graph TD
+    A[Выбор скрипта] --> B{Права администратора?}
+    B -->|Да| C[Clear-AllTemp.ps1<br/>с меню]
+    B -->|Нет| D[Clear-UserTemp.ps1]
+    
+    C --> E{Что очистить?}
+    E --> F[Полная очистка<br/>Пункт 7]
+    E --> G[Выборочная очистка<br/>Пункты 1-6]
+    
+    D --> H[Дополнительно]
+    H --> I[Clear-RecycleBin.ps1<br/>очистка корзины]
+    
+    F --> J[⚠️ Перезагрузка<br/>рекомендуется]
+    G --> K[Готово!]
+    I --> K
