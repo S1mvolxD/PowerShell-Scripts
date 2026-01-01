@@ -36,6 +36,9 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 ```ps1
 • %TEMP% and %LOCALAPPDATA%\Temp
 • Browser cache (Edge, Chrome, Firefox)
+• Temporary Internet files
+• Recent documents
+• Windows Error Reports
 ```
 
 </details>
@@ -56,7 +59,22 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 
 <details>
 
-<summary>3. Clear-RecycleBin.ps1 - Cleaning the Recycle Bin</summary>
+<summary>3. Clear-Prefetch.ps1 - Clearing Prefetch</summary>
+
+## What cleanses:
+```ps1
+• All .pf files in C:\Windows\Prefetch
+• Layout.ini file
+```
+
+</details>
+
+> [!IMPORTANT]
+> Important: After cleaning, the first launches of programs will be slower
+
+<details>
+
+<summary>Clear-RecycleBin.ps1 - Emptying the trash</summary>
 
 ## What cleanses:
 ```ps1
@@ -66,8 +84,8 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 
 </details>
 
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
+> [!IMPORTANT]
+> Attention: The removal is irreversible!
 
 # 📊 Script Comparison
 ```mermaid
