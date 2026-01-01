@@ -1,4 +1,4 @@
-# Quick-Clean.ps1 (v1) - A very basic option.
+# Clean-Menu.ps1 (v1) - A very basic option.
 # Start PowerShell.exe: "irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/main/System/Clean-Menu.ps1 | iex"
 function Show-Menu {
     Clear-Host
@@ -28,4 +28,5 @@ do {
         }
     }
 } while ($choice -ne "0")
+
 
