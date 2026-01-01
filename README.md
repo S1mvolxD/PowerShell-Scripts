@@ -87,9 +87,12 @@ graph TD
 - ✔️ Files in use by systems
 - ✔️ Important system files
 - ✔️ User's documents
-- ✔️
+- ✔️ Program Settings
     
 # 📞 Support
 Did you find a bug? Do you have any suggestions? Create an Issue
 
 Attention: These scripts are provided "as is". The author is not responsible for possible problems. Always create backups of important data before performing any cleanup operations.
+
+> [!NOTE]
+> Create a restore point just in case to avoid any problems with your system.
