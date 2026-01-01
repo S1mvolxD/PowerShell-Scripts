@@ -21,3 +21,10 @@ A set of standalone PowerShell scripts for safely cleaning temporary files in Wi
 ```ps1
 irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/main/System/Clean-Menu.ps1 | iex
 ```
+
+# 🔧 Detailed description of the scripts
+<summary>1. Clear-UserTemp.ps1 - Clearing user temporary files</summary>
+- What cleanses:
+- • %TEMP% & %LOCALAPPDATA%\Temp
+- • Browser cache (Edge, Chrome, Firefox)
+- • Recent documents
