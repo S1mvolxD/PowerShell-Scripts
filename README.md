@@ -25,6 +25,6 @@ irm https://raw.githubusercontent.com/S1mvolxD/PowerShell-Scripts/refs/heads/mai
 # 🔧 Detailed description of the scripts
 <summary>1. Clear-UserTemp.ps1 - Clearing user temporary files</summary>
 - What cleanses:
-- • %TEMP% & %LOCALAPPDATA%\Temp
-- • Browser cache (Edge, Chrome, Firefox)
-- • Recent documents
+- %TEMP% & %LOCALAPPDATA%\Temp
+- Browser cache (Edge, Chrome, Firefox)
+- Recent documents
