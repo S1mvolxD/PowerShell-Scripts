@@ -53,6 +53,22 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 > [!WARNING]
 > Urgent info that needs immediate user attention to avoid problems.
 
+graph TD
+    A[Выбор скрипта] --> B{Права администратора?}
+    B -->|Да| C[Clear-AllTemp.ps1<br/>с меню]
+    B -->|Нет| D[Clear-UserTemp.ps1]
+    
+    C --> E{Что очистить?}
+    E --> F[Полная очистка<br/>Пункт 7]
+    E --> G[Выборочная очистка<br/>Пункты 1-6]
+    
+    D --> H[Дополнительно]
+    H --> I[Clear-RecycleBin.ps1<br/>очистка корзины]
+    
+    F --> J[⚠️ Перезагрузка<br/>рекомендуется]
+    G --> K[Готово!]
+    I --> K
+    
 # 📞 Support
 Did you find a bug? Do you have any suggestions? Create an Issue
 
