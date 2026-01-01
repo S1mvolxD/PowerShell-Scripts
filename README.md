@@ -163,6 +163,7 @@ graph TD
     G --> K[Done!]
     I --> K
 ```
+
 # 🛡️ Safety measures
 ## ⚠️ Required actions before launching:
 1. Create a Restore point:
@@ -170,6 +171,13 @@ graph TD
 # In PowerShell from the administrator
 Checkpoint-Computer -Description "Before Temp Cleanup" -RestorePointType MODIFY_SETTINGS
 ```
+2. Close all programs:
+- Browsers
+- Office applications
+- Messengers
+- Other running programs
+
+3. Save your important work!
 
 # 🚨 What will NOT be deleted:
 - ✔️ Files in use by systems
