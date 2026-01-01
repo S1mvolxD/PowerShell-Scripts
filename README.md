@@ -3,8 +3,10 @@
 A collection of PowerShell scripts for automating tasks on a PC.
 
 ## 📁 Structure
-**None**
-
+|      File     | 
+| ------------- | 
+| Content Cell  |
+| Content Cell  |
 ## 🚀 How to use
 
 1. Run PowerShell as an administrator
