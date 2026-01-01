@@ -102,6 +102,22 @@ irm https://raw.githubusercontent.com/S1mvolxD/Windows-Temp-Cleaner/refs/heads/m
 > [!NOTE]
 > Creates a backup in %TEMP%\WindowsTempBackup.
 
+<details>
+
+<summary>6. Clear-SoftwareDistribution.ps1 - Clearing the updates folder</summary>
+
+## What cleanses:
+```ps1
+• C:\Windows\SoftwareDistribution\Download\
+• Stops the update service
+• Clears event logs
+```
+
+</details>
+
+> [!WARNING]
+> The update service may need to be restarted.
+> 
 # 📊 Script Comparison
 ```mermaid
 graph TD
