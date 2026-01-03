@@ -1,6 +1,17 @@
 # 🧹 Windows Temp Cleaner - A set of PowerShell scripts for cleaning temporary files
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-https://img.shields.io/badge/PowerShell-5.1+-blue.svg https://img.shields.io/badge/Windows-10%252F11%252FServer-success.svg https://img.shields.io/badge/License-MIT-green.svg https://img.shields.io/badge/Version-2.0.0-orange.svg
+[![PowerShell]]https://img.shields.io/badge/PowerShell-5.1+-blue.svg https://img.shields.io/badge/Windows-10%252F11%252FServer-success.svg https://img.shields.io/badge/License-MIT-green.svg https://img.shields.io/badge/Version-2.0.0-orange.svg
+
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-blue)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078D6)
+![Windows](https://img.shields.io/badge/Windows-10%2F11%2FServer%202022-0078D6)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Version](https://img.shields.io/badge/Version-2.0.0-orange)
+![Maintained](https://img.shields.io/badge/Maintained-Yes-success)
+
+[![GitHub release](https://img.shields.io/github/v/release/ваш-юзернейм/ваш-репозиторий)](https://github.com/ваш-юзернейм/ваш-репозиторий/releases)
+[![GitHub issues](https://img.shields.io/github/issues/ваш-юзернейм/ваш-репозиторий)](https://github.com/ваш-юзернейм/ваш-репозиторий/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ваш-юзернейм/ваш-репозиторий)](https://github.com/ваш-юзернейм/ваш-репозиторий/commits)
 
 A set of standalone PowerShell scripts for safely cleaning temporary files in Windows. Each script performs a specific task.
 
