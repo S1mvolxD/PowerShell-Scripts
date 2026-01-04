@@ -12,11 +12,11 @@
   <img src="https://img.shields.io/badge/Maintained-Yes-success"/>
 <p/>
 
-[![GitHub release](https://img.shields.io/github/v/release/S1mvolxD/Windows-Temp-Cleaner)](https://github.com/S1mvolxD/Windows-Temp-Cleaner/releases)
-[![GitHub issues](https://img.shields.io/github/issues/S1mvolxD/Windows-Temp-Cleaner)](https://github.com/S1mvolxD/Windows-Temp-Cleaner/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/S1mvolxD/Windows-Temp-Cleaner)](https://github.com/S1mvolxD/Windows-Temp-Cleaner/commits)
-
+<div align="center">
+  
 A set of standalone PowerShell scripts for safely cleaning temporary files in Windows. Each script performs a specific task.
+
+</div>
 
 # ✨ Features
 - ✅ Modularity - each script is independent and performs a single task
