@@ -1,12 +1,11 @@
 # 🧹 Windows Temp Cleaner - A set of PowerShell scripts for cleaning temporary files
 <p align="center">
-  <img src="https://img.shields.io/badge/PowerShell-5.1+-blue" />
-![PowerShell](https://img.shields.io/badge/PowerShell-5.1+-blue)
-![Platform](https://img.shields.io/badge/Platform-Windows-0078D6)
-![Windows](https://img.shields.io/badge/Windows-10%2F11%2FServer%202022-0078D6)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Version](https://img.shields.io/badge/Version-1.0.0-orange)
-![Maintained](https://img.shields.io/badge/Maintained-Yes-success)
+  <img src="https://img.shields.io/badge/PowerShell-5.1+-blue"/>
+  <img src="https://img.shields.io/badge/Platform-Windows-0078D6"/>
+  <img src="https://img.shields.io/badge/Windows-10%2F11%2FServer%202022-0078D6"/>
+  <img src="https://img.shields.io/badge/License-MIT-green"/>
+  <img src="https://img.shields.io/badge/Version-1.0.0-orange"/>
+  <img src="https://img.shields.io/badge/Maintained-Yes-success"/>
 <p/>
 
 [![GitHub release](https://img.shields.io/github/v/release/S1mvolxD/Windows-Temp-Cleaner)](https://github.com/S1mvolxD/Windows-Temp-Cleaner/releases)
