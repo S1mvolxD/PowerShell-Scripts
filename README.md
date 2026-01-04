@@ -1,4 +1,8 @@
+<div align="center">
+
 # 🧹 Windows Temp Cleaner - A set of PowerShell scripts for cleaning temporary files
+
+</div>
 <p align="center">
   <img src="https://img.shields.io/badge/PowerShell-5.1+-blue"/>
   <img src="https://img.shields.io/badge/Platform-Windows-0078D6"/>
