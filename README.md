@@ -16,6 +16,7 @@
   
 A set of standalone PowerShell scripts for safely cleaning temporary files in Windows. Each script performs a specific task.
 
+</div>
 
 # ✨ Features
 - ✅ Modularity - each script is independent and performs a single task
@@ -24,9 +25,7 @@ A set of standalone PowerShell scripts for safely cleaning temporary files in Wi
 - ✅ Flexibility - can be used separately or in combination
 - ✅ Automation - ready for the job scheduler
 - ✅ Support - Windows 10/11/Server 2016+
-
-</div>
-
+ 
 # 📁 List of scripts
 | Script | Description | Admin rights | Danger  |
 | ------ | ----------- | ------------ | ------- |
